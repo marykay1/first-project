@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="style.css">
+        <title>SPA</title>
+    </head>
+    <body>
+        <header>
+        <nav class="nav-wrapper pink">
+            <div class="container">
+                    <a href="#" class="brand-logo">Logo</a>
+                </div>  
+            </nav>
+            <a href="#" class="sidenav-trigger" data-target="mobile"><i class="material-icons">menu</i></a>
+        <ul id="mobile" class="sidenav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </header>
+        <section>
+            <div class="section container">
+                <div class="row">
+                    <div class="col s12 l10">
+                        <div class="rectangle"></div>
+                        <div class="image-bg"></div>
+                        <div class="col s10 l10">
+                            <div class="circle"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <script src="materialize/js/jquery.js"></script> 
+        <script type="text/javascript" src="/materialize/js/materialize.min.js"></script> 
+         <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+            });
+         </script>
+    </body>
+</html>
